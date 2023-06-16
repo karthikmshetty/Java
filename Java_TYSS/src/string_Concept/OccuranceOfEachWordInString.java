@@ -10,6 +10,7 @@ public class OccuranceOfEachWordInString {
 		String[] s=input.split("\\s+");
 		
 		LinkedHashSet<String> set = new LinkedHashSet<String>();
+		
 		for(int i=0;i<s.length;i++)
 		{
 			set.add(s[i]);

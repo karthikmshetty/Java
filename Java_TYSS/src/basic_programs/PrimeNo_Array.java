@@ -21,7 +21,7 @@ public class PrimeNo_Array {
 				}
 				}
 			if(count==2)
-			System.out.println(a[i]+" is prime number in this array");
+			System.out.println(a[i]+" is a prime number in this array");
 		}
 		
 		

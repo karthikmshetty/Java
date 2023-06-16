@@ -15,7 +15,6 @@ public class Position_Wtht_Dup {
 		     map.put(s.charAt(i),i);	
 
 		}
-
 		for (Entry<Character, Integer> m:map.entrySet()) {
 			
 			for(int i=0;i<s.length();i++)

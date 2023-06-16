@@ -10,7 +10,7 @@ public class FindSumOf2Digits {
 		int tsum=0;
 		for(int i=0;i<s.length();i++)
 		{
-			if(s.charAt(i)>='0'&&s.charAt(i)<='9')
+			if(s.charAt(i)>='0'&&s.charAt(i)<='9') //0=48
 			{
 				int n=s.charAt(i)-48; 
 				tsum=tsum*10+n;

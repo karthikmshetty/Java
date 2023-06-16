@@ -14,13 +14,13 @@ public class Append_0_AtFirstInArray {
 		{
 			if(a[i]==0)
 			{
-				b[m]=a[i];
-				m++;
+				b[m++]=a[i];
+				//m++;
 			}
 			else
 			{
-				b[n]=a[i];
-				n--;
+				b[n--]=a[i];
+				//n--;
 			}
 		}
 		
