@@ -20,7 +20,7 @@ public class ReverseWord {
 		
 		for(int i=0;i<s.length;i++)
 		{
-			int len=s[i].length();
+			int len=s[i].length(); // here inside the array string is there so we use length()
 			result=result+rev.subSequence(position, position+len)+" ";
 			position=position+len;
 			

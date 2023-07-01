@@ -7,7 +7,8 @@ public class Count_Vowels_String_wthout_Dup {
 	public static void main(String[] args) {
 
 		
-		String input="bangalore";
+		String input1="Bangalore";
+		String input=input1.toLowerCase();
 		char[] a=input.toCharArray();
 		int count=0;
 		LinkedHashSet<Character> set = new LinkedHashSet<Character>();

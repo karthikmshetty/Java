@@ -29,10 +29,30 @@ public class Repeated_Howmany_Times_Char {
 					count++;
 				}
 			}
-			
+		
 			System.out.println(ch+" = "+count);
 			
-		}
+	}
+		
+		
+		
+//		String s = "Tester";
+//		String s1 = s.toLowerCase();
+//		char[] s2 = s1.toCharArray();
+//		
+//		for(char i='a';i<='z';i++)
+//		{
+//			int count=0;
+//			
+//			for(char str:s2)
+//			{
+//				if(i==str)
+//					count++;
+//			}
+//			if(count>0)
+//				System.out.println(i+" present "+count);
+//			
+//		}
 		
 	}
 

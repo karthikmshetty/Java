@@ -10,7 +10,7 @@ public class Merge_Two_Array {
 		
 		int []c=new int[a.length+b.length];
 		int n=0,j=0;
-		int len=a.length+n;
+		int len=a.length;
 		
 		for(int i=0;i<c.length;i++)
 		{

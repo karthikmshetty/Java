@@ -16,7 +16,7 @@ public class Pattern4 {
 		{
 			for(int j=i;j<=5;j++)
 			{
-				System.out.print("  ");
+				System.out.print("  "); // we need to give two space
 			}
 			
 			for(int k=1;k<=i;k++)
